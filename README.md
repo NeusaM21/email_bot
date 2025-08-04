@@ -71,11 +71,6 @@ SENHA_DO_APP=sua_senha_de_aplicativo
 
 ⚠️ *Nunca compartilhe ou faça upload do seu `.env`. Ele contém informações sensíveis!*
 
----
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
 
@@ -91,6 +86,12 @@ Quer trocar uma ideia ou precisa de uma automação personalizada?
 
 📧 E-mail: [contact.neusam21@gmail.com](mailto:contact.neusam21@gmail.com)  
 🌐 GitHub: [github.com/NeusaM21](https://github.com/NeusaM21)
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
 
