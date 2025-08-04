@@ -7,6 +7,8 @@
 
 # 📧 Bot de E-mails Automáticos com Python
 
+📄 Este README também está disponível em [English 🇺🇸](README.en.md)
+
 Automatize o envio de e-mails personalizados usando Python e planilhas Excel.  
 Ideal para cobranças, notificações, lembretes e mensagens recorrentes — tudo de forma rápida, segura e personalizável.
 
