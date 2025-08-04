@@ -75,7 +75,7 @@ APP_PASSWORD=your_app_password
 
 ## 👩‍💻 Author
 
-Made with 💙 by NeusaM21
+Made with 💙 by [NeusaM21](https://github.com/NeusaM21)
 
 ---
 
