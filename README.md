@@ -14,6 +14,14 @@ Ideal para cobranças, notificações, lembretes e mensagens recorrentes — tud
 
 ---
 
+## 🎬 Demonstração
+
+Veja o bot rodando diretamente no terminal:
+
+![Demonstração do Email Bot](email_bot_demo.gif)
+
+---
+
 ## 🚀 Funcionalidades
 
 - 📊 Leitura automática de planilha com dados dos destinatários  
