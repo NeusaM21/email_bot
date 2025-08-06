@@ -13,6 +13,14 @@ Perfect for billing, notifications, reminders, and recurring messages — fast, 
 
 ---
 
+## 🎬 Demo
+
+Watch the bot running directly in the terminal:
+
+![Email Bot Demo](email_bot_demo.gif)
+
+---
+
 ## 🚀 Features
 
 - 📊 Automatic reading of recipient data from spreadsheets  
