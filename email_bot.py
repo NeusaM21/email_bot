@@ -1,7 +1,12 @@
 import pandas as pd
 import smtplib
+import os
+from dotenv import load_dotenv
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+
+# Carrega as variáveis do arquivo .env
+load_dotenv()
 
 # Função para criar mensagem personalizada
 def criar_mensagem(nome, valor, vencimento):
@@ -15,16 +20,10 @@ Atenciosamente,
 Sua Empresa
 """
 
-
 # Função para enviar e-mail
 def enviar_email(destinatario, assunto, mensagem):
-    import os
-from dotenv import load_dotenv
-load_dotenv()
-
-remetente = os.getenv("EMAIL_REMETENTE")
-senha = os.getenv("SENHA_DO_APP")
-
+    remetente = os.getenv("EMAIL_REMETENTE")
+    senha = os.getenv("SENHA_DO_APP")
 
     msg = MIMEMultipart()
     msg["From"] = remetente
@@ -38,10 +37,9 @@ senha = os.getenv("SENHA_DO_APP")
             servidor.starttls()
             servidor.login(remetente, senha)
             servidor.send_message(msg)
-        print(f"E-mail enviado para {destinatario}")
+        print(f"✅ E-mail enviado para: {destinatario}")
     except Exception as e:
-        print(f"Erro ao enviar para {destinatario}: {e}")
-
+        print(f"❌ Erro ao enviar para {destinatario}: {e}")
 
 # Leitura da planilha e envio
 df = pd.read_excel("clientes.xlsx")
